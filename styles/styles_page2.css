@@ -35,3 +35,38 @@ nav{
     border-bottom:#0C3458 solid 3px;
     width: 100%;
 }
+
+.documentGrid {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  row-gap: 24px;
+  column-gap: 16px;
+  align-items: start;
+  padding: 10px;
+}
+
+.documentGrid h2 {
+  grid-column: 1 / 3;
+  margin-bottom: 10px;
+}
+
+.documentGrid img {
+  width: 120px;
+  height: auto;
+}
+
+.documentGrid ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #0C3458;
+  margin: 30px 0;
+}
