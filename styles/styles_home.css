@@ -30,6 +30,7 @@ header{
     background:white;
     display: flex;
     justify-content: space-between;
+}
 
 nav img{
     justify-self: flex-start;
@@ -41,4 +42,11 @@ nav{
     padding-top: 15px;
     border-bottom:#0C3458 solid 3px;
     width: 100%;
+    }
+
+    h1 {
+        font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    p{
+    font-family:sans-serif;
     }
