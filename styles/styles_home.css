@@ -50,3 +50,9 @@ nav{
     p{
     font-family:sans-serif;
     }
+
+    hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+    }
